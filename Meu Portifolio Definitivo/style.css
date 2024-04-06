@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #110f18;
+}
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 20px 13rem 0px 0px;
+    
+}
+
+.navigation .title {
+    display: flex;
+    position: relative;
+    align-items: center;
+    right: 66.5rem;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.navigation .container-Nav {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    font-size: 17px;
+    z-index: 2;
+    background-color: #5c5470;
+    color: white;
+    height: 45px;
+    border-radius: 30px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: #dbd8e3;
+}
+
+.container-img {
+    display: flex;
+    margin: 3px 0px 0px 13rem;
+    gap: 10px;
+    height: 50px;
+}
+
+.container-img img {
+    max-height: 40px;
+    max-width: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #5c5470;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 50px;
+    width: 80px;
+}
+
+h1 {
+    margin: 12rem 0px 0px 13rem;
+}
+
+p {
+    margin: 20px 0px 0px 13rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    margin: 12rem  auto;
+    background-color: #dbd8e3;
+    width: 40%;
+    height: 300px;
+    border-radius: 20px;
+    gap: 5rem;
+    padding: 15px 0;
+}
+
+.skills-container .skills {
+    align-items: center;
+    justify-content: center;
+
+}
+  
+

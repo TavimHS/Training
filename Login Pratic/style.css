@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+body {
+    background-image: url(https://wallpaperaccess.com/full/1506250.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    image-resolution: 1920, 1080;
+
+}
+
+.form {
+    position: relative;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border: solid white 1px;
+    height: 400px;
+    width: 330px;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 250px;
+    display: grid;
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+.form .Input {
+    margin: 0 auto;
+    position: relative;
+    top: -19px;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    border: #fbe481;
+    padding: 8px;
+    text-decoration: none;
+    color: #ff9720;
+    border-bottom: 20px;
+    border: 15px
+}
+
+
+
+.form .Names {
+    color: white;
+    position: relative;
+    top: -5px;
+    margin-left: 20px;
+    font-size: 14px;
+
+
+}
+
+.form .Input:hover {
+    border: solid 2px #ff9720;
+}
+
+.form .Button {
+    height: 40px;
+    position: relative;
+    top: -20px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif
+}
+
+.form .Button:hover {
+    background-color: #ff9720;
+    color: white;
+    
+}
+
+.form p {
+    margin: 0 auto;
+    position: relative;
+    top: -15px;
+    align-content: center;
+    border-left: 10px;
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif
+}
+
+.form a {
+    color: #0655ff;
+    text-decoration: none;
+
+}
+
+.form a:hover {
+    text-decoration: underline;
+}

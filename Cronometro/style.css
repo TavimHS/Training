@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron"; sans-serif;
+    font-size: 50px;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 15px;
+    background-color: #f1f1f1;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 15px;
+    background-color: transparent;
+    border: solid 1px #ccc;
+    height: 450px;
+    width: 600px;
+    border-radius: 40px;
+    
+}
+
+.container h1 {
+    color: rgb(58, 137, 255);
+}
+
+.timer {
+    display: flex;
+    font-size: 60px;
+    font-weight: bold;
+    color:rgb(141, 141, 141) ;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    min-width: 90px;
+    font-size: 75px;
+}
+
+.separator {
+    font-size: 73px;
+    padding: 0 10px;
+    color: rgb(39, 39, 39);
+}
+
+#milliseconds {
+    font-size: 30px;
+    color: rgb(69, 133, 250); 
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color:rgb(69, 133, 250);
+}
+
+#startBtn {
+    background-color: rgb(69, 133, 250);
+    color: white;
+}
+
+#pauseBtn, #resumeBtn {
+    display: none;
+}
+
